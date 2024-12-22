@@ -30,6 +30,6 @@ class Solution {
         return false;
     }
 }
-// Worst case time complexity: O(N)
-// Average case time complexity: O(Log N)
+// Worst case time complexity: O(N) (due to many duplicates)
+// Average case time complexity: O(Log N) (binary search-like behavior when few duplicates)
 // Space complexity: O(1)
